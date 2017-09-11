@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Go Store</string>
+    <string name="add_new_customer">Add New Customer </string>
+    <string name="submit">Submit</string>
+    <string name="contact_optional">Contact (Optional)</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="address">Address</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="item_name">Name of Item</string>
+    <string name="add_item">Add Item</string>
+    <string name="checkout">Proceed To Checkout</string>
+    <string name="quantity_in_units">Quantity(in units)</string>
+    <string name="price">Price</string>
+    <string name="add_customer">Add Customer</string>
+    <string name="proceed_to_payment">Proceed To Payment</string>
+</resources>

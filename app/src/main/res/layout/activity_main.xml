@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.go.store.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/addCustomer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_new_customer"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/_15ssp"
+            android:textAllCaps="false"
+            android:background="@color/colorAccent"
+            android:textColor="@color/whiteColor"
+            android:padding="@dimen/_15sdp"/>
+
+        <TextView
+            android:id="@+id/oldCustomer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order for old customer"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/_15ssp"
+            android:textAllCaps="false"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@color/colorAccent"
+            android:textColor="@color/whiteColor"
+            android:padding="@dimen/_15sdp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.go.store.ItemsActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerView"
+        android:layout_above="@+id/tvProceed"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/tvProceed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/proceed_to_payment"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:textSize="@dimen/_15ssp"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorAccent"
+        android:textColor="@color/whiteColor"
+        android:padding="@dimen/_10sdp"/>
+
+</RelativeLayout>

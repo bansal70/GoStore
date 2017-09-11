@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_15sdp"
+    android:background="?selectableItemBackground">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvName"
+        android:text="@string/customer_name"
+        android:textSize="@dimen/_12ssp"
+        android:textColor="@color/blackColor"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvAddress"
+        android:text="@string/address"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:textSize="@dimen/_12ssp"
+        android:textColor="@color/blackColor"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvContact"
+        android:text="@string/contact_number"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:textSize="@dimen/_12ssp"
+        android:textColor="@color/blackColor"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvContactOpt"
+        android:text="@string/contact_optional"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:textSize="@dimen/_12ssp"
+        android:textColor="@color/blackColor"/>
+
+</LinearLayout>
